@@ -1,8 +1,16 @@
 body{
   margin: 0;
-  font-family: 'Oswald', sans-serif;
-  background-color: #f3f3f3;
 }
+
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+#section1 {padding-top:50px;height:400px;color: #fff; background-color: white;}
+#section2 {padding-top:0px;height:500px;color: #fff; background-color: #0F0F0F;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
 header {
   /*background-image:url("bkgr.png") ;*/
@@ -21,6 +29,104 @@ header {
   text-align: center;
 }
 
+.full{
+  height: 100%;
+}
+.navbar{
+  background-color: none;
+}
+
+.navbar-brand,.navbar-nav li a{
+  padding: 30px;
+  color: darkgrey;
+}
+.navbar-brand:hover,.navbar-nav li a:hover{
+  background-color: none;
+  color: black;
+}
+.navbar-toggle{
+  border-color: darkgrey;
+}
+
+.ppimg{
+  max-height: 200px;
+  height: 100%;
+  /*width: 80%;*/
+  max-width: 200px;
+  float: left;
+  border-width: 2px;
+  border-color: darkgrey;
+}
+
+.job{
+padding-top: 20%;
+padding-left: 10px;
+}
+#pp h1 {
+  /*float: right;*/
+  color: grey;
+  font-size: 100%;
+}
+#pp h3 {
+  /*float: right;*/
+  color: black;
+  font-size: 50%;
+  font-weight: bolder;
+}
+
+#pp{
+  font-size: 40px;
+  height: 50%;
+  width: 100%;
+  /*max-width: 250px;*/
+  margin-top: 10%;
+  background-color: white;
+  /*padding-top: 10%;*/
+}
+
+.arrow{
+  width: 30%;
+  max-width: 87.5px;
+  height: 100%;
+  background-color: white;
+  border-right: dashed 2px darkgrey;
+}
+.arrow2{
+width: 40%;
+height: 20px;
+max-height: 100px;
+float: right;
+background-color: green;
+}
+/*.wrapper{
+  height: 100%;
+  width: 100%;
+
+}*/
+
+#quotes{
+  background-color: white;
+
+}
+
+
+#blog{
+background-color: white;
+}
+
+.subtitle{
+  height: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: grey;
+}
+
+.subtitle h4 {
+  margin-top:30px; margin-left: 100px;
+}
+.subtitle h4 span {
+  padding-left:20px;font-style:italic
+}
  span {
   display: inline-block;
   vertical-align: middle;

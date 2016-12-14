@@ -1,36 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Frozenink</title>
-<meta charset="utf-8"/>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link href='https://fonts.googleapis.com/css?family=Oswald|Yanone+Kaffeesatz|Pacifico' rel='stylesheet' type='text/css'>
+  <title>ismailas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Raleway|Yanone+Kaffeesatz|Pacifico' rel='stylesheet' type='text/css'>
+  <style>
+
+  </style>
 </head>
-<body body style="margin:0">
-  <header class="header">
-  <div class="title">
-    <span>Frozen Ink</span>
-  </div>
-  <div class="tag">
-      when the pen stop moving, the ink stop flowing, and the moment is frozen.
-  </div>
-</header>
-  <div class="container">
-    <div class="content">
-      <div id="c1" class="circle" >
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ismailas</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#section1">Blog</a></li>
+          <li><a href="#section2">Gallery</a></li>
+          <li><a href="#section3">Contacts</a></li>
+        </ul>
       </div>
-      <div id="c2" class="circle">
+    </div>
+  </div>
+</nav>
+<div class="wrapper">
+  <div id="section1" class="">
+    <div class="full text-left" style="background-color:white; width:70%; margin:0 auto; ">
+      <div id="pp" class="child">
+        <img id="imgpp" src="pp.jpeg" class="img-circle img-thumbnail ppimg" alt="Cinque Terre" >
+        <div class="" style="width:20px; height:200px; background-color:white; float:left;">
 
+        </div>
+        <div class="col-sm-8">
+
+          <h1>DESIGNER n' ILLUSTRATOR</h1>
+          <h3>Ismail Abdus Shobar</h3>
+        </div>
       </div>
-      <div id="c3" class="circle">
+      <div class="arrow">
 
       </div>
     </div>
-
   </div>
-  <footer class="footer">
-    Instagram - DeviantArt - Dribble - GitHub
-  </footer>
+  <div id="section2" class="container-fluid">
+    <div class="subtitle">
+      <h4 > : <span>"My Gallery"</span></h4>
+    </div>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <div id="section3" class="container-fluid">
+    <h1>Section 3</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <div id="section41" class="container-fluid">
+    <h1>Section 4 Submenu 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <div id="section42" class="container-fluid">
+    <h1>Section 4 Submenu 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+<script>
+    var cw = $('.arrow2').width();
+    $('.arrow2').css({
+    'height': cw + 'px'
+    });
+</script>
 </body>
 </html>
